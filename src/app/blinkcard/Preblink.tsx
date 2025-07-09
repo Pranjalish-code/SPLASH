@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card";
 import React from "react";
 import { SolanaBlinksCard } from "./SolanaBlinksCard";
-import { useDashhProgramAccount } from "@/components/dashh/dashh-data-access";
+import { useSplashProgramAccount } from "@/components/splash/splash-data-access";
 import { PublicKey } from "@solana/web3.js";
 import { ICreator } from "@/lib/interface/creater";
 import BN from "bn.js";
 const Preblink = ({ account, size }: { account: PublicKey; size: number }) => {
-  const { accountQuery } = useDashhProgramAccount({
+  const { accountQuery } = useSplashProgramAccount({
     account,
   });
 
