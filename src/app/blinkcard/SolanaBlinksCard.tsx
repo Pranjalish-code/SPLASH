@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ICreator } from "@/lib/interface/creater";
 import { Clock, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useDashhProgram } from "@/components/dashh/dashh-data-access";
+import { useSplashProgram } from "@/components/splash/splash-data-access";
 // import { BN } from 'bn.js'
 import { useAnchorProvider } from "@/components/solana/solana-provider";
 // import { PublicKey } from '@solana/web3.js'
@@ -30,7 +30,7 @@ export function SolanaBlinksCard({
       )
     : "N/A";
 
-  const { createParticipant } = useDashhProgram();
+  const { createParticipant } = useSplashProgram();
   const handleparticipate = async (e: any) => {
     e.preventDefault();
     console.log(id);
