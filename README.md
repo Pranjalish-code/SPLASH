@@ -19,7 +19,7 @@ SPLASH is the new ad platform focused on helping brands reach the masses through
 
 ## Features
 
-➤ **Reclaim Protocol** for secure, private engagement verification.  
+➤ **Reclaim Protocol** for secure, private engagement verification provided to users.  
 ➤ **Solana Blink Actions** to track campaigns and real-time interactions.  
 ➤ **zkTLS proofs** ensuring genuine user engagement and transparency.  
 ➤ Currently supports **Instagram Story views**, expanding to other platforms.  
