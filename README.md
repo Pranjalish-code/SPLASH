@@ -101,7 +101,7 @@ Once engagement is verified, payments are processed through a secure escrow prog
 
 ## 🔗 Powered by Solana
 - **Low Fees**: Microtransactions with minimal cost.
-- **High Speed**: Real-time updates and payments without delays.
+- **High Speed**: Real-time updates and payments without delays in the payments.
 - **Scalable**: Supports large-scale campaigns effortlessly.
 
 SPLASH is the future of advertising, offering transparency, trust, and efficiency through Solana’s powerful blockchain technology.
