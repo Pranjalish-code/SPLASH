@@ -2,14 +2,14 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import CustomToggle from "@/components/custom-toggle";
-import { useDashhProgram } from "@/components/dashh/dashh-data-access";
+import { useSplashProgram } from "@/components/splash/splash-data-access";
 import Preblink from "../blinkcard/Preblink";
 import { useAnchorProvider } from "@/components/solana/solana-provider";
 import { BN } from "@coral-xyz/anchor";
 
 const Creatorpage = () => {
   const provider = useAnchorProvider();
-  const { accounts, getProgramAccount, paccounts } = useDashhProgram();
+  const { accounts, getProgramAccount, paccounts } = useSplashProgram();
   const [selectedOption, setSelectedOption] = useState("Live");
   if (getProgramAccount.isLoading) {
     return <span className="loading loading-spinner loading-lg"></span>;
